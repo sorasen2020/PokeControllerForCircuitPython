@@ -32,18 +32,18 @@ Raspberry Pi PicoでCircuitPythonが使えるようにして下さい
 
 1. Raspberry Pi PicoをPCに接続。CIRCUITPYドライブとして認識
 2. CircuitPythonのライブラリの中のadafruit_hidフォルダをCIRCUITPYドライブのlibフォルダへコピーする
-3. CIRCUITPYドライブにこのリポジトリのboot.py, code.py, switchcontroller.py, pokecon.pyをコピーする
+3. CIRCUITPYドライブにこのリポジトリのboot.py, code.py, lib/switchcontroller.py, lib/pokecon.pyをコピーする
 
 フォルダ構成
 ~~~
 CIRCUITPY
   |-- lib
   |    |-- adafruit_hid
+  |    |-- switchcontroller.py
+  |    |-- pokecon.py
   |
   |-- boot.py
   |-- code.py
-  |-- switchcontroller.py
-  |-- pokecon.py
 ~~~
 
 4. Raspberry Pi PicoをSwitchに接続
